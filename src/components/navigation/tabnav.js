@@ -1,13 +1,9 @@
 
 import React, { Component } from 'react';
 import { createTabNavigator, TabBarTop, TabView } from 'react-navigation';
-import Login from "../screens/Login"
 import MainScreen from "../screens/main-navigation"
 
 const TabNav = createTabNavigator({
-    Login : {
-        screen: Login
-    },
     Home : {
         screen: MainScreen
     }
