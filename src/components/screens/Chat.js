@@ -3,7 +3,7 @@ import { GiftedChat } from 'react-native-gifted-chat';
 import { View, KeyboardAvoidingView } from 'react-native';
 //import * as firebase from 'firebase';
 
-export default class App extends React.Component {
+export default class Chat extends React.Component {
   constructor(props) {
     super(props);
   }
